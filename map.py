@@ -358,10 +358,10 @@ print("After change : ",change)
 
 # 6
 
-print("\n6. Using map() and filter() functions add 2000 to the values below 8000.\n")
+print("\n6. Using map() and filter() functions add 3500 to the values below 9000.\n")
 
 salary = {'a':10000,'b':9500,'c':5000,'d':6000,'e':2000}
 print("Original Salary : ",salary)
 
-added = dict(map(lambda x:(x[0],x[1]+2000),filter(lambda x:(x[1]<8000),salary.items())))
+added = dict(map(lambda x:(x[0],x[1]+3500),filter(lambda x:(x[1]<9000),salary.items())))
 print("Added Salary : ",added)
