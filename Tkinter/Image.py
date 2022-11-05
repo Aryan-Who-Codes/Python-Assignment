@@ -8,7 +8,7 @@ root.geometry("1020x700")
 root.minsize(400,200)
 root.maxsize(1920,920)
 
-#Image 
+# Image {Syntax : Variable_name = PhotoImage(Attribute : file="Image_name.extension")}
 
 # note : Tkinter doesn't support jpg images, 
 #        but using pillow module
